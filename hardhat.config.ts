@@ -8,8 +8,8 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY as string;
 const config: HardhatUserConfig = {
   solidity: "0.8.11",
   networks: {
-    rinkeby: {
-      url: RINKEBY_URL,
+    mumbai: {
+      url: "https://rpc-mumbai.maticvigil.com",
       accounts: [PRIVATE_KEY],
     },
   },

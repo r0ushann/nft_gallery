@@ -1,11 +1,8 @@
+import useSigner from "state/nft-market/signer";
 import AddressAvatar from "./AddressAvatar";
 
 const ConnectButton = () => {
-  const address = "";
-  const loading = false;
-  const connectWallet = () => {
-    // TODO: connect wallet
-  };
+  const {address , loading , connectWallet } = useSigner();
 
   if (address) return <AddressAvatar address={address} />;
   return (
