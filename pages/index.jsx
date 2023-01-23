@@ -87,7 +87,7 @@ const Home = () => {
       </div>
       <footer className=' mb-2 mt-10'>
           <span>© 2022 Copyright: </span>
-          <a className="text-gray-600 font-semibold mb-2 mt-2 object-bottom" href="https:/github.com/r0ushann">dodo</a>
+          <a className="text-gray-600 font-semibold mb-2 mt-2 object-bottom" href="https://github.com/r0ushann">dodo</a>
       </footer>
     </div>
   )
